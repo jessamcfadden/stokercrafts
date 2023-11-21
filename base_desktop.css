@@ -1,0 +1,768 @@
+/* BASE_DESKTOP CSS FOR STOKER CRAFTS */
+
+/* --------------------------------------------- BASIC FORMATTING STYLES ---------------------------------------------*/
+
+/* BODY STYLES */
+
+body
+{
+	font-family: 'Open Sans', helvetica, arial, sans-serif;
+	font-size: 1.1em;
+	color: #092639;
+	background-color: white;
+	line-height: 175%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+/* HEADER STYLES */
+
+header
+{
+	background-color: #092639;
+	color: #ffead0;
+	width: 100%;
+}
+
+.responsiveimg
+{
+  max-width: 100%;
+  height: auto;
+  padding: 1.5%;
+  padding-left: 4.2%;
+}
+
+/* FOOTER STYLES */
+
+footer
+{
+	background-color: #092639;
+	color: #ffead0;
+	text-align: center;
+	padding: 1%;
+	clear: both;
+	width: 100%;
+}
+
+.labelci
+{
+	font-weight: bold;
+}
+
+.designinf
+{
+	font-size: .85em;
+	font-style: italic;
+}
+
+/* BUTTON STYLES */
+
+button
+{
+	width: 75%;
+	padding: 5px;
+	background-color: #092639;
+	color: #ffead0;
+	border: solid 1px #183b52;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 1em;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+button:hover
+{
+	background-color: #183b52;
+}
+
+.bold
+{
+	font-weight: 900;
+}
+
+.italic
+{
+	font-style: italic;
+}
+
+.underline
+{
+	text-decoration: underline;
+}
+
+.center
+{
+	text-align: center;
+}
+
+/* --------------------------------------------- ALL NAVIGATION STYLES ---------------------------------------------*/
+
+/* MAIN NAV STYLES */
+
+.topnav .icon
+{
+	display: none;
+}
+
+a
+{
+	color: #ffead0;
+}
+
+.topnav
+{
+	background-color: #183b52;
+	padding: 1.5%;
+	text-align: right;
+	padding-right: 4.2%;
+	overflow: hidden;
+}
+
+.topnav a:link
+{
+	color: #ffead0;
+	padding-left: 25px;
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.topnav a:visited
+{
+	color: #ffead0;
+	padding-left: 25px;
+	text-decoration: none;
+}
+
+.topnav a:hover
+{
+	text-decoration: underline;
+	padding-left: 25px;
+}
+
+.topnav a:focus
+{
+	color: #F1F4F6;
+	padding-left: 25px;
+}
+
+.topnav a:active
+{
+	color: #ffead0;
+	padding-left: 25px;
+	text-decoration: underline;
+}
+
+/* BREADCRUMB NAVIGATION STYLES */
+
+ul.breadcrumbs
+{
+	text-align: right;
+	margin-right: 4%;
+	list-style: none;
+}
+ 
+ul.breadcrumbs li
+{
+	display: inline;
+}
+
+ul.breadcrumbs li+li:before
+{
+	padding: 10px;
+	color: #1b1b1b;
+	content: "/\00a0";
+}
+
+ul.breadcrumbs li a
+{
+	text-decoration: none;
+	color: #545454;
+}
+
+ul.breadcrumbs li a:hover
+{
+	text-decoration: underline;
+}
+
+ul.breadcrumbs li a:focus
+{
+	text-decoration: underline;
+}
+
+/* SIDE NAVIGATION STYLES */
+
+#col1
+{
+	background-image: -webkit-linear-gradient(rgba(24,59,82, 0.1), white);
+	background-image: -moz-linear-gradient(rgba(24,59,82, 0.1), white);
+	background-image: -ms-linear-gradient(rgba(24,59,82, 0.1), white);
+	background-image: -o-linear-gradient(rgba(24,59,82, 0.1), white);
+	background-image: linear-gradient(rgba(24,59,82, 0.1), white);
+	background-color: #f5f5f5;
+	height: 174vh;
+	float: left;
+   	width: 15%;
+}
+
+#col1 ul
+{
+	list-style: none;
+	margin-top: 40%;
+}
+
+#col1 ul li 
+{
+	padding-top: 10px;
+}
+
+#col1 ul li a:link
+{
+	text-decoration: none;
+	color: #092639;
+}
+
+#col1 ul li a:hover
+{
+	text-decoration: underline;
+	color: #183b52;
+}
+
+#col1 ul li a:visited
+{
+	color: #1b1b1b;
+}
+
+.social
+{
+	padding-left: 5px;
+	font-weight: 900;
+}
+
+/* --------------------------------------------- HOME PAGE STYLES ---------------------------------------------*/
+
+/* section 1 */
+
+#col2
+{
+	float: left;
+	width: 72%;
+	margin-left: 6.5%;
+	margin-right: 4%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+/* section 2 */
+
+#col3
+{
+	float: left;
+	width: 73%;
+	margin-left: 6.5%;
+	margin-right: 4%;
+	margin-bottom: 5%;
+}
+
+/* section 3 */
+
+#col4
+{
+	float: left;
+	width: 50%;
+	margin-left: 6.5%;
+	margin-right: 1%;
+
+}
+
+#col5
+{
+	float: left;
+	width: 19%;
+	margin-right: 4%;
+	margin-left: 3.5%;
+	margin-top: 5%;
+}
+
+/* INTRO STYLES */
+
+h1
+{
+	font-family: 'Noto Serif', 'Times', 'Times New Roman', Georgia, Serif;
+}
+
+.subhead
+{
+	font-family: 'Open Sans', helvetica, arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: 100;
+	margin-top: -12px;
+	
+}
+
+.socialtop
+{
+	margin-top: 50px;
+}
+
+/* PAGE BANNER STYLES */
+
+.responsive
+{
+  	max-width: 100%;
+  	height: auto;
+	margin: 0 auto;
+}
+
+/* CHARITY STYLES */
+
+h2
+{
+	font-family: 'Noto Serif', 'Times', 'Times New Roman', Georgia, Serif;
+	font-size: 2em;
+}
+
+.wwclo
+{
+	margin-bottom: 50%;
+}
+
+a#wwinternallink
+{
+	text-decoration: underline;
+	color: #183b52;
+	font-style: italic;
+}
+
+/* HIDDEN ELEMENTS */
+
+#mobbuttons
+{
+	display: none;
+}
+
+#mobsocial
+{
+	display: none;
+}
+
+/* --------------------------------------------- GENERAL FORMATTING FOR INTERIOR PAGE STYLES ---------------------------------------------*/
+
+/* section 2 */
+
+#icol2
+{
+	float: left;
+	width: 40%;
+	margin-left: 3%;
+	margin-top: 1%;
+	margin-bottom: 5%;
+}
+
+#icol2_5
+{
+	float: left;
+	width: 36%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+
+/* section 3 */
+
+#icol3
+{
+	float: left;
+	width: 78%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 5%;
+}
+
+/* section 4 */
+
+#icol4
+{
+	float: left;
+	width: 50%;
+	margin-left: 3%;
+	margin-top: 1%;
+	margin-bottom: 5%;
+}
+
+#icol4_5
+{
+	float: left;
+	width: 28%;
+	margin-left: 3%;
+	margin-right: 0%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
+#icol5
+{
+	float: left;
+	width: 78%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+/* section 5 */
+
+#icol5 blockquote
+{
+	margin: auto;
+	margin-left: 30%;
+}
+
+.wwcloi
+{
+	width: 70%;
+}
+
+/* ABOUT STYLES */
+
+#aboutbotparag
+{
+	float: left;
+	width: 78%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 5%;
+}
+
+/* PRODUCTS AND PRICING STYLES */
+#icolprod
+{
+	float: left;
+	width: 78%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 5%;
+	margin-top: -2%;
+}
+
+#icol3p
+{
+	float: left;
+	width: 78%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 5%;
+}
+
+table
+{
+	margin-top: 5%;
+	width: 100%;
+	border: solid 1px #1b1b1b;
+	border-collapse: collapse;
+}
+
+tr:nth-child(even) td
+{
+	background-color: rgba(24,59,82, 0.1);
+}
+
+th
+{
+	background-color: #092639;
+	color: #ffead0;
+	padding: 5px;
+}
+
+tr, td
+{
+	border: solid 1px #1b1b1b;
+	padding: 1px;
+	padding-left: 5px;
+}
+
+/* CONTACT FORM STYLING */
+#icolcont1
+{
+	float: left;
+	width: 78%;
+	margin-left: 3%;
+	margin-top: 1%;
+	margin-bottom: 5%;
+}
+
+#contbanner
+{
+	float: left;
+	width: 78%;
+	margin-left: 3%;
+	margin-top: 7%;
+}
+
+#contordbut
+{
+	display: none;
+}
+	
+form#inquiry
+{
+	 background-color: rgba(24,59,82, 0.1);
+	 -webkit-border-radius: 5px;
+	 -moz-border-radius: 5px;
+	 border-radius: 5px;
+	 padding: 3%;
+	 width: 85%;
+	 border: solid 1px #1b1b1b;
+	 font-weight: 900;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+
+form#inquiry input[type=text]
+{
+	float: right;
+	width: 50%;
+	border: solid 1px #1b1b1b;
+	padding: 1%;
+}
+
+form#inquiry input[type=url]
+{
+	float: right;
+	width: 50%;
+	border: solid 1px #1b1b1b;
+	padding: 1%;
+}
+
+form#inquiry input[type=email]
+{
+	float: right;
+	width: 50%;
+	border: solid 1px #1b1b1b;
+	padding: 1%;
+
+}
+
+form#inquiry input[type=tel]
+{
+	float: right;
+	width: 50%;
+	border: solid 1px #1b1b1b;
+	padding: 1%;
+}
+
+form#inquiry textarea
+{
+	float: right;
+	height: 100%;
+	width: 50%;
+	padding: 1%;
+	border: solid 1px #1b1b1b;
+}
+
+form#inquiry input[type=submit]
+{
+	width: 25%;
+	padding: 1%;
+	background-color: #092639;
+	color: #ffead0;
+	border: solid 1px #183b52;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 1em;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+form#inquiry input[type=reset]
+{
+	width: 25%;
+	padding: 1%;
+	background-color: #092639;
+	color: #ffead0;
+	border: solid 1px #183b52;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 1em;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+#formbuttonwrap
+{
+	padding-top: 5%;
+	text-align: center;
+}
+
+form#inquiry input[type=submit]:hover
+{
+	background-color: #183b52;
+}
+
+form#inquiry input[type=reset]:hover
+{
+	background-color: #183b52;
+}
+
+/* GALLERY STYLES */
+
+#gallery
+{
+	float: left;
+	width: 78%;
+	margin-left: 3%;
+	margin-top: 1%;
+	margin-bottom: 5%;
+}
+
+.row
+{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 40px;
+}
+
+.column
+{
+	flex: 28%;
+	max-width: 28%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.column img
+{
+	vertical-align: middle;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.ioshov
+{
+   border-radius: 50%;
+   border: solid 1px #d3d3d3;
+   -webkit-transition: border-radius 1s; 
+   -moz-transition: border-radius 1s; 
+   -o-transition: border-radius 1s; 
+   transition: border-radius 1s;
+   box-shadow: 0px 4px 8px 0px #d3d3d3;
+   cursor: pointer;
+}
+
+.ioshov:hover 
+{
+   border-radius: 5%;
+}
+
+/* ORDER NOW STYLES */
+
+#order
+{	
+	float: left;
+	width: 78%;
+	margin-left: 3%;
+	margin-top: 1%;
+	margin-bottom: 5%;
+}
+
+hr
+{
+	border: solid .5px #d3d3d3;
+	margin-top: 35px;
+	margin-bottom: 35px;}
+
+#thankyou
+{
+	float: left;
+	width: 78%;
+	margin-left: 3%;
+	margin-top: 1%;
+	margin-bottom: 5%;
+	text-align: center;
+	font-size: 1.75em;
+	font-family: 'Noto Serif', 'Times', 'Times New Roman', Georgia, Serif;
+	font-style: italic;
+}
+
+#orderhead
+{
+	margin-bottom: 5%;
+}
+
+select
+{
+	float: right;
+	width: 50%;
+	border: solid 1px #1b1b1b;
+}
+
+input[type=checkbox]
+{
+	float: right;
+}
+
+input[type=date]
+{
+	float: right;
+	float: right;
+	width: 49.5%;
+	border: solid 1px #1b1b1b;
+	padding: 2px;
+
+}
+
+textarea::placeholder
+{
+	font-style: italic;
+}
+
+/* transform scale styles */
+.iosscale 
+{
+	background-color: #e7ebed;
+	border-radius: 5px;
+	font-size: .85em;
+	color: #092639;
+	width: 89%;
+	margin: auto;
+	border: solid 1px #1b1b1b;
+	padding: 10px;
+	box-shadow: 0px 4px 8px 0px #d3d3d3;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+	cursor: pointer;
+}
+
+.iosscale:hover 
+{
+   -moz-transform:scale(1.2,1.2);
+   -ms-transform:scale(1.2,1.2);
+   -webkit-transform:scale(1.2,1.2);
+   -o-transform:scale(1.2,1.2);
+   transform:scale(1.2,1.2);
+   -moz-transform-origin: top;
+   -ms-transform-origin: top;
+   -webkit-transform-origin: top;
+   -o-transform-origin: top;
+   transform-origin: top;
+}
+
+.prodscale
+{
+	width: 95.5%;
+}
+
+.formscale
+{
+	margin-bottom: 2.5%;
+}
+
+
+

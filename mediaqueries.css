@@ -1,0 +1,717 @@
+/* MEDIA QUERIES STYLE SHEET */
+
+/* MEDIA QUERIES FOR MAX 480 - OLD ANDROID SMARTPHONES */
+
+@media only screen and (max-width: 480px)
+{	
+	/* general formatting queries */
+	body
+	{
+		font-size: .9em;
+	}
+
+	.wwclo
+	{
+		width: 75%;
+		padding-left: 12.5%;
+		padding-right: 12.5%;
+	}
+	
+	footer
+	{
+		font-size: .85em;
+	}
+	
+	/* gallery styles */
+	#gallery
+	{
+		width: 95%;
+	}
+	.column
+	{
+		flex: 100%;
+		max-width: 100%;
+	}
+}
+
+/* MEDIA QUERIES FOR MAX 668 - IPHONE 5-6 LANDSCAPE */
+
+@media only screen and (max-width: 668px)
+{
+	/* general formatting queries */
+	#col1
+	{
+		display: none;
+	}
+	
+	body
+	{
+		font-size: .95em;
+	}
+	
+	h1
+	{
+		font-size: 1.5em;
+	}
+	
+	.subhead
+	{
+		font-size: 1.25em;
+	}
+	
+	h2
+	{
+		font-size: 1.5em;
+	}
+	
+	footer
+	{
+		font-size: .88em;
+	}
+	
+	/* home page queries */
+	#col2
+	{
+		width: 87.5%;
+	}
+	
+	#col3
+	{
+		width: 87.5%;
+	}
+	
+	#col4
+	{
+		width: 87.5%;
+	}
+
+	#col5
+	{
+		width: 87.5%;
+		margin-bottom: 10%;
+	}
+
+	.wwclo
+	{
+		width: 60%;
+		padding-left: 23%;
+		padding-right: 23%;
+	}
+	
+	button
+	{
+		width: 100%;
+		padding: 10px;
+	}
+	
+	/* giving back queries */
+	#icol2
+	{
+		width: 93%;
+		margin-left: 4%;
+		margin-right: 4%;
+	}
+
+	#icol3
+	{
+		width: 93%;
+	}
+
+	#icol4
+	{
+		width: 93%;
+		margin-left: 4%;
+		margin-right: 4%;
+	}
+
+	#icol4_5
+	{
+		float: left;
+		width: 92%;
+		margin-left: 4%;
+		margin-right: 4%;
+		margin-top: 0%;
+		margin-bottom: 5%;
+	}
+
+	#icol5
+	{
+		float: left;
+		width: 93%;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-bottom: 5%;
+		text-align: center;
+	}
+
+	#icol5 blockquote
+	{
+		margin: auto;
+		margin-left: 0%;
+	}
+
+	.wwcloi
+	{
+		width: 60%;
+		padding-left: 20%;
+	}
+}
+
+/* MEDIA QUERIES FOR MAX 926 - ANDROID LANDSCAPE */
+
+@media only screen and (max-width: 926px)
+{
+	/* transform styles */
+	.iosscale:hover 
+	{
+   		-moz-transform:scale(1.1,1.1);
+   		-ms-transform:scale(1.1,1.1);
+   		-webkit-transform:scale(1.1,1.1);
+   		-o-transform:scale(1.1,1.1);
+   		transform:scale(1.1,1.1);
+   		-moz-transform-origin: top;
+   		-ms-transform-origin: top;
+   		-webkit-transform-origin: top;
+   		-o-transform-origin: top;
+   		transform-origin: top;
+	}
+	
+	/* general formatting queries */
+	body
+	{
+		font-size: 1em;
+	}
+	
+	header
+	{
+		text-align: center;
+	}
+	
+	#col1
+	{
+		display: none;
+	}
+
+	#mobbuttons
+	{
+		display: block;
+		width: 87.5%;
+		text-align: center;
+	}
+
+	#mobbuttons ul
+	{
+		list-style: none;
+		padding-bottom: 20px;
+		margin-left: 5%;
+	}
+	
+	#mobbuttons ul li
+	{
+		padding-top: 5px;
+	}
+	
+	/* social menu queries */	
+	#mobsocial
+	{
+		display: block;
+		width: 87.5%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	#mobsocial ul
+	{
+	 	list-style: none;
+	 	margin-left: -47px;
+	}
+	
+	#mobsocial ul li
+	{
+		 display: inline-block;
+	}
+
+	#mobsocial ul li a:link
+	{
+		 color: #183b52;
+	}
+	
+	#mobsocial ul li
+	{
+		 display: inline-block;
+	}
+	
+	#mobsocial ul li
+	{
+		 display: inline-block;
+	}
+	
+	/* responsive nav */
+	.topnav a
+	{
+		display: none;
+		text-align: center;
+	}
+	
+	.topnav a.icon
+	{
+		display: block;
+		text-align: center;
+	}
+	
+	.topnav.responsive
+	{
+		position: relative;
+	}
+	
+	.topnav.responsive a.icon
+	{
+		text-align: center;
+	}
+	
+	.topnav.responsive a
+	{
+		float: none;
+		display: block;
+		text-align: center;
+	}
+	
+	/* home page queries */
+	#col2
+	{
+		width: 87.5%;
+		margin-left: 6.5%;
+		margin-right: 4%;
+	}
+	
+	#col3
+	{
+		width: 87.5%;
+		margin-left: 6.5%;
+		margin-right: 4%;
+		margin-top: 2%;
+	}
+	
+	#col4
+	{
+		width: 87.5%;
+	}
+	
+	h2
+	{
+		text-align: center;
+	}
+	
+	#col5
+	{
+		width: 87.5%;
+
+	}
+	
+	.wwclo
+	{
+		width: 45%;
+		padding-left: 31.5%;
+		padding-right: 29%;
+		margin-bottom: 5%;
+	}
+	
+	/* giving back queries */
+	#icol2
+	{
+		width: 93%;
+		margin-left: 4%;
+		margin-right: 4%;
+	}
+	
+	#icol2_5
+	{
+		display: none;
+	}
+
+	#icol3
+	{
+		width: 93%;
+	}
+
+	#icol4
+	{
+		width: 93%;
+		margin-left: 4%;
+		margin-right: 4%;
+	}
+
+	#icol4_5
+	{
+		float: left;
+		width: 93%;
+		margin-left: 4%;
+		margin-right: 4%;
+		margin-top: 0%;
+		margin-bottom: 5%;
+	}
+
+	#icol5
+	{
+		float: left;
+		width: 93%;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-bottom: 15%;
+		text-align: center;
+	}
+
+	#icol5 blockquote
+	{
+		margin: auto;
+		margin-left: 0%;
+	}
+
+	.wwcloi
+	{
+		width: 40%;
+		padding-left: 30%;
+	}
+	
+	/* about queries */
+	#aboutbotparag
+	{
+		float: left;
+		width: 92%;
+		margin-left: 3%;
+		margin-right: 0%;
+		margin-bottom: 5%;	
+	}
+	
+	/* product queries */
+	#icolprod
+	{
+		float: left;
+		width: 92%;
+		margin-left: 3%;
+		margin-right: 0%;
+		margin-bottom: 5%;		
+	}
+
+	#icol3p
+	{
+		width: 93%;
+	}
+	
+	/* contact queries */
+	#icolcont1
+	{
+		float: left;
+		width: 94%;
+		margin-left: 3%;
+		margin-top: 1%;
+		margin-bottom: 5%;
+	}
+
+	.icolcont1p
+	{
+		text-align: center;
+	}
+	
+	#icolcont2
+	{
+		float: left;
+		width: 94%;
+		margin-left: 3%;
+		margin-top: 0%;
+		margin-bottom: 5%;
+		text-align: center;
+	}
+	
+	#contordbut
+	{
+		display: block;
+		width: 92%;
+		text-align: center;
+		margin-bottom: 0%;
+		margin-top: 5%;
+	}
+	
+	#contbanner
+	{
+		float: left;
+		width: 100%;
+		margin-top: 7%;
+		margin-bottom: 7%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.conord
+	{
+		width: 30%;
+		padding: 5px;
+	}
+
+	#contordbut ul
+	{
+		list-style: none;
+		padding-bottom: 20px;
+		margin-left: 5%;
+	}
+	
+	#contordbut ul li
+	{
+		padding-top: 5px;
+	}
+	
+	/* gallery queries */
+	#gallery
+	{
+		width: 92%;
+		margin-left: 3%;
+	}
+	
+	.column
+	{
+		margin-bottom: 12%;
+	}
+	
+	/* order form queries */	
+	#order
+	{	
+		width: 92%;
+	}
+
+	#thankyou
+	{
+		width: 92%;
+		font-size: 1.5em;
+	}
+}
+
+/* MEDIA QUERIES FOR MAX 927 TO 1024 - IPAD, DESKTOP, LAPTOP IN LANDSCAPE */
+
+@media only screen and (min-width: 927px) and (max-width: 1024px)
+{
+	/* home page queries */	
+	#col1
+	{
+		width: 25%;
+	}
+	
+	#col2
+	{
+		width: 62.5%;
+	}
+	
+	#col3
+	{
+		width: 62.5%;
+	}
+
+	#col4
+	{
+		width: 62.5%;
+	}
+	
+	#col5
+	{
+		width: 62.5%;
+		margin-left: 45%;
+	}
+	
+	.wwclo
+	{
+		width: 50%;
+		margin-bottom: 5%;
+		margin-top: -5%;
+	}
+	
+	#wwlinkq
+	{
+		text-align: center;
+	}
+	
+	/* about queries */
+	#aboutbotparag
+	{
+		float: left;
+		width: 69%;
+		margin-left: 3%;
+		margin-right: 0%;
+		margin-bottom: 5%;	
+	}
+	
+	/* product queries */
+	#icolprod
+	{
+		float: left;
+		width: 69%;
+		margin-left: 3%;
+		margin-right: 0%;
+		margin-bottom: 5%;		
+	}
+	
+	#icol3p
+	{
+		width: 75%;
+		margin-left: 25%;
+	}
+	
+	/* giving back queries */
+	#icol2
+	{
+		width: 70%;
+	}
+	
+	#icol2_5
+	{
+		display: none;
+	}
+	
+	.prodscale
+	{
+		width: 86%;
+	}
+	
+	#icol3
+	{
+		width: 69%;
+	}
+	
+	#icol4
+	{
+		width: 70%;
+	}
+	
+	#icol4_5
+	{
+		margin-top: -2%;
+		width: 28%;
+		margin-left: 27%;
+		margin-bottom: 5%;
+	}
+
+	.wwcloi
+	{
+		width: 100%;
+		padding-left: 75%;
+	}
+
+	#icol5
+	{
+		font-size: .9em;
+		float: left;
+		width: 50%;
+		margin-left: 38%;
+		margin-right: 3%;
+		margin-bottom: 5%;
+		text-align: center;
+	}
+		
+	#icol5 blockquote
+	{
+		margin: auto;
+		margin-left: 0%;
+	}
+	
+	/* contact us queries */
+	#icolcont1
+	{
+		float: left;
+		width: 69%;
+		margin-left: 3%;
+		margin-top: 1%;
+		margin-bottom: 5%;
+	}
+	
+	#icolcont2
+	{
+		float: left;
+		width: 69%;
+		margin-left: 3%;
+		margin-top: 0%;
+		margin-bottom: 5%;
+		text-align: center;
+	}
+	
+	#contbanner
+	{
+		width: 69%;
+	}
+	
+	form#inquiry
+	{
+	 	padding: 20px;
+	}
+
+	form#inquiry input[type=text]
+	{
+		width: 65%;
+		padding: 2px;
+		padding-top: 2.5px;
+		padding-bottom: 2.5px;
+	}
+
+	form#inquiry input[type=email]
+	{
+		width: 65%;
+		padding: 2px;
+		padding-top: 2.5px;
+		padding-bottom: 2.5px;
+	}
+
+	form#inquiry input[type=tel]
+	{
+		width: 65%;
+		padding: 2px;
+		padding-top: 2.5px;
+		padding-bottom: 2.5px;
+	}
+
+	form#inquiry textarea
+	{
+		overflow: auto;
+		width: 65%;
+	}
+
+	form#inquiry input[type=submit]
+	{
+		width: 25%;
+		padding: 5px;
+	}
+
+	form#inquiry input[type=reset]
+	{
+		width: 25%;
+		padding: 5px;
+	}
+	
+	/* gallery queries */
+	#gallery
+	{
+		width: 65%;
+		margin-left: 3%;
+	}
+
+	#order
+	{	
+		width: 65%;
+	}
+
+	#thankyou
+	{
+		width: 65%;
+	}
+}
+
+/* RANDOM MEDIA QUERIES */
+
+@media only screen and (min-width: 1025px) and (max-width: 1500px)
+{
+	#icol3p
+	{
+		width: 75%;
+		margin-left: 20%;
+	}
+}
+
+
+
+
